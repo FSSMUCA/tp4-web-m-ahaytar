@@ -1,0 +1,47 @@
+
+.navbar{
+    border-bottom: 1px solid #b8b0ff;
+}
+
+body {
+  background: linear-gradient(to left, #0f0c29 0%, #302b63 100%, #24243e 100%);
+}
+
+h2 {
+  font-weight: 750;
+  color: rgb(230, 230, 230);
+
+}
+
+.card img {
+  height: 180px;
+  object-fit: cover;
+}
+.carousel-inner{
+    overflow: hidden;
+    position:relative;
+    padding-top: 33.33%;
+    box-shadow:
+        0 4px 8px 2px gray;
+}
+.carousel-item img{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card{
+    box-shadow:
+        0 3px 6px 2px rgb(145, 127, 247);
+}
+
+
+.navbar-custom-gradient {
+  background: linear-gradient(to right, #0f0c29 0%, #24243e 100%);
+}
+footer{
+    border-top: 1px solid #b8b0ff;
+}
